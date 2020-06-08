@@ -1,0 +1,299 @@
+*{
+	padding:0;
+	margin:0;
+	}
+/* navbar	 */
+.menu-bar
+{
+	background-image: linear-gradient(to right, skyblue ,yellow);
+	
+}
+
+.navbar-brand
+{
+	max-width:50px;
+}
+
+.nav-link
+{
+	font-size: 16px;
+	color: red !important;
+	margin: 2px;
+}
+.navbar-nav
+{
+	text-align:right;
+}
+.menu-bar .navbar-toggler
+{
+	padding-right: 0;
+	outline:none;
+	border: none;
+}
+
+.one
+{
+	height:;
+	width:;
+}
+/* banner */
+.banner
+{
+	height:80vh;
+	background-image: linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)),url(images/banner1.jpg);
+	background-size:cover;
+	background-position:center;
+	color:white;
+}
+
+.banner h1
+{
+	padding-top:170px;
+	font-size:50px;
+	letter-spacing:6px;
+	font-weight:600;
+	text-shadow: 0 0 30px rgba(0,0,0,0.5);
+}
+
+.search-job
+{
+	padding: 30px 0;
+	margin: -50px 6% 50px;
+	background-image: linear-gradient(to right, skyblue ,yellow)
+}
+
+.search-job .form-control
+{
+	max-width: 250px;
+	display: inline-flex;
+	margin:10px 5px;
+	border-radius:0;
+	box-shadow:none !important;
+	border:none !important;
+	
+}
+
+.search-job .btn-primary
+{
+	border-radius:0;
+	box-shadow:none !important;
+	border:none;
+	display:inline-flex;
+	margin:5px;
+	padding: 5px 20px;
+}
+
+
+/* top recruiters */
+
+#recruiters
+{
+	padding-top:50px;
+	padding-bottom:100px;
+}
+
+#recruiters h3
+{
+	text-align:center;
+	padding-bottom:40px;
+}
+
+h3::before
+{
+	content: '';
+	background-image: linear-gradient(to right, skyblue ,yellow);
+	width:50px;
+	height:30px;
+	position:absolute;
+	z-index:-10;
+	margin-top:-15px;
+	border-top-left-radius:70px;
+	border-bottom-right-radius:90px;
+}
+
+#recruiters img
+{
+	max-width:100px;
+	margin:10px 20px;
+}
+
+/* Recent jobs */
+
+#jobs
+{
+	background: skyblue;
+	padding: 50px 30px;	
+}
+
+.company-details
+{
+	box-shadow: 10px 10px 10px 10px black;
+	border-radius: 5px;
+	margin-bottom: 10px;
+	
+}
+
+.job-updates
+{
+	background: white;
+	padding:10px 20px;
+	border-radius: 5px;
+}
+
+.job-updates .fa
+{
+	margin-top:5px;
+	margin-right:10px;
+	color: red;
+}
+
+.job-updates small
+{
+	background:gray;
+	padding: 1px 5px;
+	margin: 0 5px;
+}
+
+.job-updates small p
+{
+	margin-bottom:0 !important;
+}
+
+.job-updates a
+{
+	text-decoration: none !important;
+	color: green;
+	float:right;	
+}
+
+.apply-btn
+{
+	height:40px;
+	padding:7px;
+	background-image: linear-gradient(to right, skyblue ,yellow);
+	border-bottom-left-radius: 5px;
+	border-bottom-right-radius: 5px;
+		
+}
+
+.apply-btn .btn-primary
+{
+	padding: 0 30px;
+	float:right;
+	border-radius: 0;
+	box-shadow:none !important;
+	background:transparent;
+	border: 1px solid white;	
+}
+
+.page-link li
+{
+	height:25px;
+	width:25px;
+	list-style:none;
+	display: inline-block;
+	cursor:pointer;
+}
+
+.page-link li:hover, .active
+{
+	color:white;
+	background-image: linear-gradient(to right, skyblue ,yellow);
+}
+
+.left-arrow
+{
+	color:red;
+}
+
+.right-arrow
+{
+	color:green;
+}
+
+/* site stats */
+
+
+#site-stats
+{
+	padding:100px 0;
+}
+
+#site-stats h3
+{
+	margin-bottom:30px;
+}
+
+.stats-box
+{
+	padding:30px;
+	border-radius:10px;
+	margin:20px 0;
+	box-shadow:0 2px 40px 0 rgba(110,130,208, .18);
+	
+}
+
+.stats-box .fa
+{
+	font-size:30px;
+	margin-right:10px;
+	margin-bottom:10px;
+}
+
+/* app banner */
+
+#app-banner
+{
+	background-image: linear-gradient(to right, skyblue ,yellow);
+	padding:50px 0;
+}
+
+#app-banner h1
+{
+	margin-top:20px;
+	color:white;
+	
+}
+
+#app-banner img
+{
+	width:150px;
+	margin:50px 0;
+}
+
+
+/* footer */
+
+#footer
+{
+	background: skyblue;
+	padding:20px 10px 8px;
+
+}
+
+.footer-image
+{
+	margin: 30px 0px;
+	
+}
+
+#footer p 
+{
+	color:black;
+}
+
+#footer a img
+{
+	width:50px;
+	height:50px;
+}
+
+.fa-heart
+{
+	color:red;
+}
+
+hr
+{
+	background-color: black;
+}
